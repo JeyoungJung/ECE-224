@@ -764,6 +764,7 @@ int main()
   int ch;
   while (1)
   {
+	IOWR(LED_PIO_BASE, 0x0, 0x0A);
     ch = TopMenu();
     if (ch == 'q')
     {

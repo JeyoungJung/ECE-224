@@ -1,9 +1,7 @@
-10:39:16 **** Incremental Build of configuration Nios II for project Board_Diagnostics ****
-make all 
-Info: Building ../Board_Diagnostics_bsp/
-C:/Software/Altera/15.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Board_Diagnostics_bsp/
-[BSP build complete]
-[Board_Diagnostics build complete]
+14:35:09 **** Clean-only build of configuration Nios II for project Board_Diagnostics ****
+make clean 
+rm: cannot remove 'Board_Diagnostics.elf': Device or resource busy
+make: *** [clean] Error 1
 
-10:39:17 Build Finished (took 813ms)
+14:35:09 Build Finished (took 182ms)
 

@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for LogicalStep_top
-Tue May 24 10:14:54 2022
+Wed May 25 14:25:05 2022
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -93,8 +93,8 @@ agreement for further details.
 +------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                        ; Status ; Read at                  ;
 +------------------------------------------------------+--------+--------------------------+
-; QD1/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Tue May 24 10:14:53 2022 ;
-; QD1/synthesis/submodules/QD1_nios2_gen2_0_cpu.sdc    ; OK     ; Tue May 24 10:14:53 2022 ;
+; QD1/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Wed May 25 14:25:04 2022 ;
+; QD1/synthesis/submodules/QD1_nios2_gen2_0_cpu.sdc    ; OK     ; Wed May 25 14:25:04 2022 ;
 +------------------------------------------------------+--------+--------------------------+
 
 
@@ -764,7 +764,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Tue May 24 10:14:52 2022
+    Info: Processing started: Wed May 25 14:25:02 2022
 Info: Command: quartus_sta LogicalStep -c LogicalStep_top
 Info: qsta_default_script.tcl version: #1
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -855,9 +855,9 @@ Info (332114): Report Metastability: Found 4 synchronizer chains.
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 4964 megabytes
-    Info: Processing ended: Tue May 24 10:14:54 2022
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 4963 megabytes
+    Info: Processing ended: Wed May 25 14:25:05 2022
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 
 
