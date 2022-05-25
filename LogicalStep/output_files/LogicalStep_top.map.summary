@@ -1,15 +1,15 @@
-Analysis & Synthesis Status : Successful - Tue May 10 10:31:29 2022
+Analysis & Synthesis Status : Successful - Tue May 24 10:13:44 2022
 Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 Revision Name : LogicalStep_top
 Top-level Entity Name : LogicalStep_top
 Family : MAX 10
-Total logic elements : 6,770
-    Total combinational functions : 5,502
-    Dedicated logic registers : 4,021
-Total registers : 4021
+Total logic elements : 7,491
+    Total combinational functions : 5,959
+    Dedicated logic registers : 4,577
+Total registers : 4577
 Total pins : 96
 Total virtual pins : 0
-Total memory bits : 73,088
+Total memory bits : 114,048
 Embedded Multiplier 9-bit elements : 6
 Total PLLs : 1
 UFM blocks : 0

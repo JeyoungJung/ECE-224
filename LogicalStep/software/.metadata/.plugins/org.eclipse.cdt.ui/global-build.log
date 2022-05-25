@@ -52,3 +52,9 @@ Info: Building ../Board_Diagnostics_bsp/
 C:/Software/Altera/15.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Board_Diagnostics_bsp/
 [BSP build complete]
 [Board_Diagnostics build complete]
+09:38:42 **** Clean-only build of configuration Nios II for project Lab_1_bsp ****
+make clean 
+[BSP clean complete]
+09:38:46 **** Clean-only build of configuration Nios II for project Lab_1 ****
+make clean 
+[Lab_1 clean complete]

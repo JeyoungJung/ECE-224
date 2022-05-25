@@ -1,5 +1,5 @@
 EDA Netlist Writer report for LogicalStep_top
-Tue May 10 10:32:38 2022
+Tue May 24 10:14:59 2022
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue May 10 10:32:38 2022 ;
+; EDA Netlist Writer Status ; Successful - Tue May 24 10:14:59 2022 ;
 ; Revision Name             ; LogicalStep_top                       ;
 ; Top-level Entity Name     ; LogicalStep_top                       ;
 ; Family                    ; MAX 10                                ;
@@ -82,13 +82,13 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Tue May 10 10:32:36 2022
+    Info: Processing started: Tue May 24 10:14:57 2022
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off LogicalStep -c LogicalStep_top
 Warning (10905): Generated the EDA functional simulation files although EDA timing simulation option is chosen.
 Info (204019): Generated file LogicalStep_top.vho in folder "C:/Users/j74jung/ECE-224/LogicalStep/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4908 megabytes
-    Info: Processing ended: Tue May 10 10:32:39 2022
+    Info: Peak virtual memory: 4912 megabytes
+    Info: Processing ended: Tue May 24 10:15:00 2022
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 
