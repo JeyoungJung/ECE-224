@@ -28,46 +28,56 @@ int background()
 	int x = 0;
 	int grainsize = 4;
 	int g_taskProcessed = 0;
-	for(j = 0; j < grainsize; j++)
+	for (j = 0; j < grainsize; j++)
 	{
-	g_taskProcessed++;
+		g_taskProcessed++;
 	}
 	return x;
 }
 
-
-void stim_in_isr(void* context, alt_u32 id);
+void stim_in_isr(void *context, alt_u32 id);
 void tight_polling(void);
 void interrupt_behaviour(void);
 
 int main()
 {
-  IOWR(LED_PIO_BASE, 0, 0xA);
-  printf("NIOOOOS II!\n");
-  mode = IORD(SWITCH_PIO_BASE, 0);
+	IOWR(LED_PIO_BASE, 0, 0xA);
+	printf("NIOOOOS II!\n");
+	mode = IORD(SWITCH_PIO_BASE, 0);
+	// Indicates we are doing tight polling
+	if (mode & 1)
+	{
+		printf("Tight Polling selected\nPlease press PB0 to continue\n");
+		while ((IORD(BUTTON_PIO_BASE, 0) & 1))
+		{
+		}
+		tight_polling();
+	}
+	else
+	{
+		printf("Interrupt selected\n Please press PB0 to continue\n");
+		while ((IORD(BUTTON_PIO_BASE, 0) & 1))
+		{
+		}
+		interrupt_behaviour();
+	}
 
-  // Indicates we are doing tight polling
-  if (mode & 1) {
-	  printf("Tight Polling selected\nPlease press PB0 to continue\n");
-	  while((IORD(BUTTON_PIO_BASE, 0) & 1)) {}
-	  tight_polling();
-  } else {
-	  printf("Interrupt selected\n Please press PB0 to continue\n");
-	  while ((IORD(BUTTON_PIO_BASE, 0) & 1)) {}
-	  interrupt_behaviour();
-  }
-
-  // query the missed pulses and average latency
-  // and set egm enable to low
-  return 0;
+	// query the missed pulses and average latency
+	// and set egm enable to low
+	return 0;
 }
 
+void tight_polling()
+{
+	// Turn off interrupt mode
+	IOWR(STIMULUS_IN_BASE, 2, 0);
 
-void tight_polling() {
-	  unsigned short period;
-	  unsigned int bt_count = 0;
-	  //IOWR(STIMULUS_IN_BASE, 2, 0x0);
-	  for(period = 2; period < 5000; period+=2) {
+	// 16 bit values for period/duty cycle
+	unsigned short period;
+
+	// ensures each cycle only processed once
+	for (period = 2; period < 5000; period += 2)
+	{
 		// Setup and enable EGM
 		// Wait for EGM to become disabled
 		// Disable EGM for config
@@ -75,69 +85,87 @@ void tight_polling() {
 		// Set period
 		IOWR(EGM_BASE, 2, period);
 		// Set duty cycle
-		IOWR(EGM_BASE, 3, period/2);
+		IOWR(EGM_BASE, 3, period / 2);
 		// Set enable
 		IOWR(EGM_BASE, 0, 1);
-		// ensures each cycle only processed once
+		// Set response to 0 initially
+		IOWR(RESPONSE_OUT_BASE, 0, 0);
+		printf("enter loop\n");
+
 		int first = 1;
+		unsigned int bt_count = 0;
 		unsigned short num_tasks = 0;
 		unsigned short bt = 0;
-		printf("enter loop\n");
-		while(IORD(EGM_BASE, 1))
-		{
 
-		  while (!IORD(STIMULUS_IN_BASE, 0)) {}
-		  IOWR(RESPONSE_OUT_BASE, 0, 1);
-		  IOWR(RESPONSE_OUT_BASE, 0, 0);
-		  if (first) {
-			  while(IORD(STIMULUS_IN_BASE, 0)){
-				  background();
-				  num_tasks++;
-			  }
-			  while(IORD(STIMULUS_IN_BASE, 0) != 0x01){
-				  background();
-				  num_tasks++;
-			  }
-			  bt_count = num_tasks;
-			  printf("Num Tasks %d\n", num_tasks);
-			  first = 0;
-		  } else {
-			  for(bt = 0; bt < num_tasks; bt++) {
-				  background();
-				  bt_count++;
-			  }
-		  }
+		while (IORD(EGM_BASE, 1))
+		{
+			// Pause when STIMULUS_IN_BASE is low
+			while (!IORD(STIMULUS_IN_BASE, 0))
+			{
+			}
+			IOWR(RESPONSE_OUT_BASE, 0, 1);
+			IOWR(RESPONSE_OUT_BASE, 0, 0);
+			if (first)
+			{
+				while (IORD(STIMULUS_IN_BASE, 0))
+				{
+					background();
+					num_tasks++;
+				}
+				while (IORD(STIMULUS_IN_BASE, 0) != 0x01)
+				{
+					background();
+					num_tasks++;
+				}
+				bt_count = num_tasks;
+				printf("Num Tasks %d\n", num_tasks);
+				first = 0;
+			}
+			else
+			{
+				for (bt = 0; bt < num_tasks - 1; bt++)
+				{
+					background();
+					bt_count++;
+				}
+			}
 		}
 		unsigned short avg_lat = IORD(EGM_BASE, 4);
-	    unsigned short missed = IORD(EGM_BASE, 5);
-	    unsigned short multi = IORD(EGM_BASE, 6);
-		printf("period %hu, duty %hu, bt %u, avg lat %hu, missed %hu, multi %hu\n", period, period/2, bt_count, avg_lat, missed, multi);
+		unsigned short missed = IORD(EGM_BASE, 5);
+		unsigned short multi = IORD(EGM_BASE, 6);
+		printf("period %hu, duty %hu, bt %u, avg lat %hu, missed %hu, multi %hu\n", period, period / 2, bt_count, avg_lat, missed, multi);
 		bt_count = 0;
-	    // Get test data and disable egm
-	  }
+		// Get test data and disable egm
+	}
 	printf("exit loop\n");
 }
 
-void interrupt_behaviour() {
+void interrupt_behaviour()
+{
 	// Initialize Interrupt for stim in
 	alt_irq_register(STIMULUS_IN_IRQ, NULL, stim_in_isr);
 	IOWR(STIMULUS_IN_BASE, 2, 0x1);
 
 	// 16 bit values for period/duty cycle
 	unsigned short period;
-	for(period = 2; period < 5000; period+=2) {
+
+	for (period = 2; period < 5000; period += 2)
+	{
 		unsigned int bt_count = 0;
-		// Disable EGM for config
-		IOWR(EGM_BASE, 0, 0);
 		// Setup and enable EGM
 		// Wait for EGM to become disabled
+		// Disable EGM for config
+		IOWR(EGM_BASE, 0, 0);
+		// Set period
 		IOWR(EGM_BASE, 2, period);
 		// Set duty cycle
-		IOWR(EGM_BASE, 3, period/2);
+		IOWR(EGM_BASE, 3, period / 2);
 		// Set enable
 		IOWR(EGM_BASE, 0, 1);
+		// Set response to 0 initially
+		IOWR(RESPONSE_OUT_BASE, 0, 0);
 
-		while(IORD(EGM_BASE, 1))
+		while (IORD(EGM_BASE, 1))
 		{
 			background();
 			bt_count++;
@@ -145,16 +173,18 @@ void interrupt_behaviour() {
 		unsigned short avg_lat = IORD(EGM_BASE, 4);
 		unsigned short missed = IORD(EGM_BASE, 5);
 		unsigned short multi = IORD(EGM_BASE, 6);
-		printf("period %hu, duty %hu, bt %u, avg lat %hu, missed %hu, multi %hu\n", period, period/2, bt_count, avg_lat, missed, multi);
+		printf("period %hu, duty %hu, bt %u, avg lat %hu, missed %hu, multi %hu\n", period, period / 2, bt_count, avg_lat, missed, multi);
 
-	  // Get test data and disable egm
+		// Get test data and disable egm
 	}
 }
 
-void stim_in_isr(void* context, alt_u32 id)
+static void stim_in_isr(void *context, alt_u32 id)
 {
+	// Enable RESPONSE_OUT_BASE
 	IOWR(RESPONSE_OUT_BASE, 0, 1);
+	// Disable RESPONSE_OUT_BASE
 	IOWR(RESPONSE_OUT_BASE, 0, 0);
-	IOWR(STIMULUS_IN_BASE, 3,0x0);
-
+	// Clear STIMULUS_IN_BASE
+	IOWR(STIMULUS_IN_BASE, 3, 0x0);
 }
