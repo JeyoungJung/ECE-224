@@ -97,9 +97,10 @@ void tight_polling()
 		unsigned short num_tasks = 0;
 		unsigned short bt = 0;
 
+		// While EGM_BASE is busy
 		while (IORD(EGM_BASE, 1))
 		{
-			// Pause when STIMULUS_IN_BASE is low
+			// Pause when STIMULUS_IN_BASE is LOW
 			while (!IORD(STIMULUS_IN_BASE, 0))
 			{
 			}
@@ -107,11 +108,13 @@ void tight_polling()
 			IOWR(RESPONSE_OUT_BASE, 0, 0);
 			if (first)
 			{
+				// While STIMULUS_IN_BASE is HIGH
 				while (IORD(STIMULUS_IN_BASE, 0))
 				{
 					background();
 					num_tasks++;
 				}
+				// While STIMULUS_IN_BASE is LOW
 				while (IORD(STIMULUS_IN_BASE, 0) != 0x01)
 				{
 					background();
@@ -165,6 +168,7 @@ void interrupt_behaviour()
 		// Set response to 0 initially
 		IOWR(RESPONSE_OUT_BASE, 0, 0);
 
+		// While EGM_BASE is busy
 		while (IORD(EGM_BASE, 1))
 		{
 			background();
