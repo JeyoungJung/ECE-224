@@ -41,7 +41,6 @@ void interrupt_behaviour(void);
 
 int main()
 {
-	IOWR(LED_PIO_BASE, 0, 0xA);
 	printf("NIOOOOS II!\n");
 	mode = IORD(SWITCH_PIO_BASE, 0);
 	// Indicates we are doing tight polling
@@ -76,8 +75,10 @@ void tight_polling()
 	unsigned short period;
 
 	// ensures each cycle only processed once
-	for (period = 2; period < 5000; period += 2)
+	for (period = 2; period < 1500; period += 2)
 	{
+		IOWR(LED_PIO_BASE, 0, 2);
+		IOWR(LED_PIO_BASE, 0, 0);
 		// Setup and enable EGM
 		// Wait for EGM to become disabled
 		// Disable EGM for config
@@ -87,67 +88,65 @@ void tight_polling()
 		// Set duty cycle
 		IOWR(EGM_BASE, 3, period / 2);
 		// Set enable
-		IOWR(EGM_BASE, 0, 1);
-		// Set response to 0 initially
-		IOWR(RESPONSE_OUT_BASE, 0, 0);
-
-
 		unsigned int bt_count = 0;
 		unsigned short num_tasks = 0;
 		unsigned short bt = 0;
 
-		// Used to determine cycle
-		int prev = 0;
-		int curr = 0;
+		IOWR(EGM_BASE, 0, 1);
+		IOWR(RESPONSE_OUT_BASE, 0, 1);
+		IOWR(RESPONSE_OUT_BASE, 0, 0);
+		while(IORD(STIMULUS_IN_BASE, 0)&& IORD(EGM_BASE, 1)) { background(); num_tasks++; }
+		while(!IORD(STIMULUS_IN_BASE, 0) && IORD(EGM_BASE, 1)) { background(); num_tasks++; }
+		IOWR(RESPONSE_OUT_BASE, 0, 1);
+		IOWR(RESPONSE_OUT_BASE, 0, 0);
+		while(IORD(STIMULUS_IN_BASE, 0) && IORD(EGM_BASE, 1)) {}
+		while(!IORD(STIMULUS_IN_BASE, 0) && IORD(EGM_BASE, 1)) {}
 
-		// Used to determine if first cycle has been complete
-		int first = 1;
-		int RE = 0;
-		int HL = 0;
-		int FE = 0;
-		int LL = 0;
-
-		// While EGM_BASE is busy
-		while (IORD(EGM_BASE, 1))
-		{
-			curr = IORD(STIMULUS_IN_BASE, 0);
-			if (curr && !prev) { // Rising edge
-				IOWR(RESPONSE_OUT_BASE, 0, 1);
-				IOWR(RESPONSE_OUT_BASE, 0, 0);
-//				if (LL && FE && HL && RE) {
-//					first = 0;
-//				}
-//				if (!first) { // If this is not first cycle, execute characterized number of tasks
-//					for (bt = 0; bt < num_tasks - 1; bt++) {
-//						background();
-//						bt_count++;
-//					}
-//				}
-//				RE = 1;
-//			} else if (curr && prev) { // High Level
-//				if (first) {
-//					background();
-//					num_tasks++;
-//				}
-//				HL = 1;
-//			} else if (!curr && prev) { // Falling Edge
-//				if (first) {
-//					background();
-//					num_tasks++;
-//				}
-//				FE = 1;
-//			} else if (!curr && !prev) { // Low Level
-//				if (first) {
-//					background();
-//					num_tasks++;
-//				}
-//				LL = 1;
+		while (IORD(EGM_BASE, 1)) {
+			IOWR(RESPONSE_OUT_BASE, 0, 1);
+			IOWR(RESPONSE_OUT_BASE, 0, 0);
+			for (bt = 0; bt < num_tasks - 1; bt++) {
+				background();
+				bt_count++;
 			}
-			prev = curr;
+			while(IORD(STIMULUS_IN_BASE, 0) && IORD(EGM_BASE, 1)) {}
+			while(!IORD(STIMULUS_IN_BASE, 0) && IORD(EGM_BASE, 1)) {}
 		}
+
+		// Disable RESPONSE_OUT_BASE
+
+//		break;
+//
+//		while (IORD(EGM_BASE, 1))
+//		{
+//			if (first < 2) {
+//				if (curr && !prev) { // Rising edge
+//					IOWR(RESPONSE_OUT_BASE, 0, 1);
+//					// Disable RESPONSE_OUT_BASE
+//					IOWR(RESPONSE_OUT_BASE, 0, 0);
+//					first++;
+//					curr = IORD(STIMULUS_IN_BASE, 0);
+//					prev = curr;
+//				} else {
+//					background();
+//					num_tasks++;
+//				}
+//			} else {
+//				for (bt = 0; bt < num_tasks - 1; bt++) {
+//					background();
+//					bt_count++;
+//				}
+//				IOWR(RESPONSE_OUT_BASE, 0, 1);
+//				// Disable RESPONSE_OUT_BASE
+//				IOWR(RESPONSE_OUT_BASE, 0, 0);
+//			}
+//		}
 
 //		int second = 0;
 //		while (IORD(EGM_BASE, 1)) {
+//			IOWR(LED_PIO_BASE, 0, 2);
+//			IOWR(LED_PIO_BASE, 0, 0);
+//
 //			if (IORD(STIMULUS_IN_BASE, 0))
 //			{
 //				IOWR(RESPONSE_OUT_BASE, 0, 1);
@@ -210,16 +209,13 @@ void interrupt_behaviour()
 		unsigned int bt_count = 0;
 		// Setup and enable EGM
 		// Wait for EGM to become disabled
-		// Disable EGM for config
-		IOWR(EGM_BASE, 0, 0);
+
 		// Set period
 		IOWR(EGM_BASE, 2, period);
 		// Set duty cycle
 		IOWR(EGM_BASE, 3, period / 2);
 		// Set enable
 		IOWR(EGM_BASE, 0, 1);
-		// Set response to 0 initially
-		IOWR(RESPONSE_OUT_BASE, 0, 0);
 
 		// While EGM_BASE is busy
 		while (IORD(EGM_BASE, 1))
@@ -231,8 +227,8 @@ void interrupt_behaviour()
 		unsigned short missed = IORD(EGM_BASE, 5);
 		unsigned short multi = IORD(EGM_BASE, 6);
 		printf("period %hu, duty %hu, bt %u, avg lat %hu, missed %hu, multi %hu\n", period, period / 2, bt_count, avg_lat, missed, multi);
-
-		// Get test data and disable egm
+		// Disable EGM for config
+		IOWR(EGM_BASE, 0, 0);
 	}
 }
 
