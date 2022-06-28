@@ -113,86 +113,12 @@ void tight_polling()
 			while(!IORD(STIMULUS_IN_BASE, 0) && IORD(EGM_BASE, 1)) {}
 		}
 
-		// Disable RESPONSE_OUT_BASE
-
-//		break;
-//
-//		while (IORD(EGM_BASE, 1))
-//		{
-//			if (first < 2) {
-//				if (curr && !prev) { // Rising edge
-//					IOWR(RESPONSE_OUT_BASE, 0, 1);
-//					// Disable RESPONSE_OUT_BASE
-//					IOWR(RESPONSE_OUT_BASE, 0, 0);
-//					first++;
-//					curr = IORD(STIMULUS_IN_BASE, 0);
-//					prev = curr;
-//				} else {
-//					background();
-//					num_tasks++;
-//				}
-//			} else {
-//				for (bt = 0; bt < num_tasks - 1; bt++) {
-//					background();
-//					bt_count++;
-//				}
-//				IOWR(RESPONSE_OUT_BASE, 0, 1);
-//				// Disable RESPONSE_OUT_BASE
-//				IOWR(RESPONSE_OUT_BASE, 0, 0);
-//			}
-//		}
-
-//		int second = 0;
-//		while (IORD(EGM_BASE, 1)) {
-//			IOWR(LED_PIO_BASE, 0, 2);
-//			IOWR(LED_PIO_BASE, 0, 0);
-//
-//			if (IORD(STIMULUS_IN_BASE, 0))
-//			{
-//				IOWR(RESPONSE_OUT_BASE, 0, 1);
-//				IOWR(RESPONSE_OUT_BASE, 0, 0);
-//			}
-//			if (first)
-//			{
-//				// While STIMULUS_IN_BASE is HIGH
-//				while (IORD(STIMULUS_IN_BASE, 0) && IORD(EGM_BASE, 1))
-//				{
-//					background();
-//					num_tasks++;
-//				}
-//				// While STIMULUS_IN_BASE is LOW
-//				while (IORD(STIMULUS_IN_BASE, 0) != 0x01 && IORD(EGM_BASE, 1))
-//				{
-//					background();
-//					num_tasks++;
-//				}
-//				bt_count = num_tasks;
-//				first = 0;
-//				second = 1;
-//			} else if (second) {
-//				second = 0; // Wait for second cycle to execute before collecting data
-//				while (IORD(STIMULUS_IN_BASE, 0) && IORD(EGM_BASE, 1)) {}
-//			}
-//			else
-//			{
-//				for (bt = 0; bt < 1; bt++)
-//				{
-//
-//					background();
-//					bt_count++;
-//				}
-//			}
-//		}
-
 		unsigned short avg_lat = IORD(EGM_BASE, 4);
 		unsigned short missed = IORD(EGM_BASE, 5);
 		unsigned short multi = IORD(EGM_BASE, 6);
-		//printf("num tasks: %d\n", num_tasks);
-		printf("period %hu, duty %hu, bt %u, avg lat %hu, missed %hu, multi %hu\n", period, period / 2, bt_count, avg_lat, missed, multi);
+		printf("%hu,%hu,%u,%hu,%hu,%hu\n", period, period / 2, bt_count, avg_lat, missed, multi);
 		bt_count = 0;
-		// Get test data and disable egm
 	}
-	printf("exit loop\n");
 }
 
 void interrupt_behaviour()
@@ -204,7 +130,7 @@ void interrupt_behaviour()
 	// 16 bit values for period/duty cycle
 	unsigned short period;
 
-	for (period = 2; period < 5000; period += 2)
+	for (period = 2; period < 1500; period += 2)
 	{
 		unsigned int bt_count = 0;
 		// Setup and enable EGM
@@ -226,7 +152,7 @@ void interrupt_behaviour()
 		unsigned short avg_lat = IORD(EGM_BASE, 4);
 		unsigned short missed = IORD(EGM_BASE, 5);
 		unsigned short multi = IORD(EGM_BASE, 6);
-		printf("period %hu, duty %hu, bt %u, avg lat %hu, missed %hu, multi %hu\n", period, period / 2, bt_count, avg_lat, missed, multi);
+		printf("%hu,%hu,%u,%hu,%hu,%hu\n", period, period / 2, bt_count, avg_lat, missed, multi);
 		// Disable EGM for config
 		IOWR(EGM_BASE, 0, 0);
 	}

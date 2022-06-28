@@ -1,5 +1,5 @@
 Flow report for LogicalStep_top
-Wed May 25 14:25:11 2022
+Thu Jun 02 14:56:03 2022
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed May 25 14:25:11 2022           ;
+; Flow Status                        ; Successful - Thu Jun 02 14:56:03 2022           ;
 ; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Standard Edition ;
 ; Revision Name                      ; LogicalStep_top                                 ;
 ; Top-level Entity Name              ; LogicalStep_top                                 ;
@@ -67,7 +67,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/25/2022 14:22:40 ;
+; Start date & time ; 06/02/2022 14:53:52 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; LogicalStep_top     ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ agreement for further details.
 +-------------------------------------+-----------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                                                                                     ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+-----------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 268612362186180.165350295908084                                                                           ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 268612362139082.165419603105180                                                                           ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                                                                                      ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                                                                                    ; <None>        ; --          ; --             ;
 ; ENABLE_SIGNALTAP                    ; On                                                                                                        ; --            ; --          ; --             ;
@@ -147,13 +147,13 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:01     ; 1.0                     ; 5224 MB             ; 00:01:24                           ;
-; Fitter                    ; 00:00:48     ; 1.2                     ; 5721 MB             ; 00:01:02                           ;
+; Analysis & Synthesis      ; 00:00:52     ; 1.0                     ; 5223 MB             ; 00:01:14                           ;
+; Fitter                    ; 00:00:42     ; 1.2                     ; 5712 MB             ; 00:00:53                           ;
 ; Assembler                 ; 00:00:02     ; 1.0                     ; 4892 MB             ; 00:00:02                           ;
-; PowerPlay Power Analyzer  ; 00:00:11     ; 1.5                     ; 5039 MB             ; 00:00:15                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4963 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4913 MB             ; 00:00:02                           ;
-; Total                     ; 00:02:07     ; --                      ; --                  ; 00:02:47                           ;
+; PowerPlay Power Analyzer  ; 00:00:09     ; 1.5                     ; 5039 MB             ; 00:00:13                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4965 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4913 MB             ; 00:00:02                           ;
+; Total                     ; 00:01:50     ; --                      ; --                  ; 00:02:26                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -162,12 +162,12 @@ agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; ECE-CPUIO13      ; Windows 8 ; 6.2        ; x86_64         ;
-; Fitter                    ; ECE-CPUIO13      ; Windows 8 ; 6.2        ; x86_64         ;
-; Assembler                 ; ECE-CPUIO13      ; Windows 8 ; 6.2        ; x86_64         ;
-; PowerPlay Power Analyzer  ; ECE-CPUIO13      ; Windows 8 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; ECE-CPUIO13      ; Windows 8 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; ECE-CPUIO13      ; Windows 8 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; ECE-CPUIO20      ; Windows 8 ; 6.2        ; x86_64         ;
+; Fitter                    ; ECE-CPUIO20      ; Windows 8 ; 6.2        ; x86_64         ;
+; Assembler                 ; ECE-CPUIO20      ; Windows 8 ; 6.2        ; x86_64         ;
+; PowerPlay Power Analyzer  ; ECE-CPUIO20      ; Windows 8 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; ECE-CPUIO20      ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; ECE-CPUIO20      ; Windows 8 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

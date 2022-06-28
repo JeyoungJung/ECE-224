@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'QD1'
  * SOPC Builder design path: ../../QD1.sopcinfo
  *
- * Generated: Wed May 25 13:13:02 EDT 2022
+ * Generated: Thu Jun 02 16:04:41 EDT 2022
  */
 
 /*
@@ -268,7 +268,7 @@
 
 #define ALT_INCLUDE_INSTRUCTION_RELATED_EXCEPTION_API
 #define ALT_MAX_FD 32
-#define ALT_SYS_CLK SYSTEM_TIMR
+#define ALT_SYS_CLK none
 #define ALT_TIMESTAMP_CLK none
 
 
