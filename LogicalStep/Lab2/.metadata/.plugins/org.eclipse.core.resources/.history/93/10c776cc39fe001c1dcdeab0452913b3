@@ -1,0 +1,70 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+#include "alt_types.h"
+#include "altera_avalon_timer.h"
+#include "altera_avalon_timer_regs.h"
+
+
+
+static void btn_in_isr(void *context, alt_u32 id)
+{
+	// Disable btn interrupt
+	IOWR(BUTTON_PIO_BASE, 2, 0x0);
+
+	// Set timer period -> 27.5 * 20ns = 0x14FB18
+	IOWR(TIMER_0_BASE, 0x02, 0xFB18);
+	IOWR(TIMER_0_BASE, 0x03, 0x0014);
+
+	// Start timer
+	IOWR(TIMER_0_BASE, 0x01, 0x05);
+}
+
+static void timer_isr(void *context, alt_u32 id)
+{
+	int btn_state = IORD(BUTTON_PIO_BASE, 0x0);
+	if (btn_state == 0xe) {
+		printf("Button 0 pressed\n");
+	} else if (btn_state == 0xD) {
+		printf("Button 1 pressed\n");
+	} else if (btn_state == 0x0B) {
+		printf("Button 2 pressed\n");
+	} else if (btn_state == 0x07) {
+		printf("Button 3 pressed\n");
+	} else {
+		printf("Can only press one button %lx\n", btn_state);
+	}
+	// Reset timer
+	IOWR(TIMER_0_BASE, 0x00, 0x0);
+	IOWR(TIMER_0_BASE, 0x01, 0x0);
+
+	// Enable btn interrupt
+	IOWR(BUTTON_PIO_BASE, 0x03, 0x0);
+	IOWR(BUTTON_PIO_BASE, 2, 0xF);
+}
+int main()
+{
+	// Initialize Interrupt for stim in
+	alt_irq_register(TIMER_0_IRQ, NULL, timer_isr);
+	alt_irq_register(BUTTON_PIO_IRQ, NULL, btn_in_isr);
+	IOWR(TIMER_0_BASE, 0x01, 0x0);
+
+	IOWR(BUTTON_PIO_BASE, 2, 0xF);
+	while(1);
+  return 0;
+}

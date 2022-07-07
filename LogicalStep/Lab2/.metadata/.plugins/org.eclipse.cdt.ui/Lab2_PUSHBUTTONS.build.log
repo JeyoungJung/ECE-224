@@ -1,0 +1,22 @@
+17:16:19 **** Incremental Build of configuration Nios II for project Lab2_PUSHBUTTONS ****
+make all 
+Info: Building ../Lab2_PUSHBUTTONS_bsp/
+C:/Software/Altera/15.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Lab2_PUSHBUTTONS_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Lab2_PUSHBUTTONS_bsp//HAL/inc -I../Lab2_PUSHBUTTONS_bsp/ -I../Lab2_PUSHBUTTONS_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED -DALTERA_AVALON_JTAG_UART_SMALL    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:65:2: warning: implicit declaration of function 'alt_irq_register' [-Wimplicit-function-declaration]
+  alt_irq_register(TIMER_0_IRQ, NULL, timer_isr);
+  ^
+Info: Linking Lab2_PUSHBUTTONS.elf
+nios2-elf-g++  -T'../Lab2_PUSHBUTTONS_bsp//linker.x' -msys-crt0='../Lab2_PUSHBUTTONS_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Lab2_PUSHBUTTONS_bsp/   -Wl,-Map=Lab2_PUSHBUTTONS.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx  -o Lab2_PUSHBUTTONS.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert Lab2_PUSHBUTTONS.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1001140 --timestamp 1652189717 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name QD1 --quartus_project_dir "C:/Users/j74jung/ECE-224/LogicalStep" --jdi ../..//output_files/LogicalStep_top.jdi --sopcinfo C:/Users/j74jung/ECE-224/LogicalStep/software/Lab2_PUSHBUTTONS_bsp/../../QD1.sopcinfo
+Info: (Lab2_PUSHBUTTONS.elf) 30 KBytes program size (code + initialized data).
+Info:                        8158 KBytes free for stack + heap.
+Info: Creating Lab2_PUSHBUTTONS.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Lab2_PUSHBUTTONS.elf >Lab2_PUSHBUTTONS.objdump
+[Lab2_PUSHBUTTONS build complete]
+
+17:16:21 Build Finished (took 1s.882ms)
+

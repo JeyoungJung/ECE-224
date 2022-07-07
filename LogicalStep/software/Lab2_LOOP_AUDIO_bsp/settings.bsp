@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>28-Jun-2022 9:20:13 AM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1656422413958</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>7-Jul-2022 2:57:24 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1657220244221</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\j74jung\ECE-224\LogicalStep\software\Lab2_LOOP_AUDIO_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\QD1.sopcinfo</SopcDesignFile>

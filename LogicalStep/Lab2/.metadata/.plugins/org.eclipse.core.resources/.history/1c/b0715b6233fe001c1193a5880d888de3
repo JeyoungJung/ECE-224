@@ -1,0 +1,84 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "alt_types.h"
+#include "altera_avalon_timer.h"
+#include "altera_avalon_timer_regs.h"
+
+
+
+
+void interrupt_behaviour()
+{
+	// Initialize Interrupt for stim in
+	alt_irq_register(STIMULUS_IN_IRQ, NULL, stim_in_isr);
+	IOWR(STIMULUS_IN_BASE, 2, 0x1);
+
+	// 16 bit values for period/duty cycle
+	unsigned short period;
+
+	for (period = 2; period < 5000; period += 2)
+	{
+		unsigned int bt_count = 0;
+		// Setup and enable EGM
+		// Wait for EGM to become disabled
+		// Disable EGM for config
+		IOWR(EGM_BASE, 0, 0);
+		// Set period
+		IOWR(EGM_BASE, 2, period);
+		// Set duty cycle
+		IOWR(EGM_BASE, 3, period / 2);
+		// Set enable
+		IOWR(EGM_BASE, 0, 1);
+		// Set response to 0 initially
+		IOWR(RESPONSE_OUT_BASE, 0, 0);
+
+		// While EGM_BASE is busy
+		while (IORD(EGM_BASE, 1))
+		{
+			background();
+			bt_count++;
+		}
+		unsigned short avg_lat = IORD(EGM_BASE, 4);
+		unsigned short missed = IORD(EGM_BASE, 5);
+		unsigned short multi = IORD(EGM_BASE, 6);
+		printf("period %hu, duty %hu, bt %u, avg lat %hu, missed %hu, multi %hu\n", period, period / 2, bt_count, avg_lat, missed, multi);
+
+		// Get test data and disable egm
+	}
+}
+
+static void stim_in_isr(void *context, alt_u32 id)
+{
+	// Disable btn interrupt
+	IOWR(STIMULUS_IN_BASE, 2, 0x0);
+
+	// Set timer period -> 27.5 * 20ns = 0x14FB18
+	IOWR(TIMER_0_BASE, 0x02, 0xFB18);
+	IOWR(TIMER_0_BASE, 0x03, 0x0014);
+
+	// Start timer
+	IOWR(TIMER_0_BASE, 0x05, 0x01);
+
+
+}
+
+int main()
+{
+
+  return 0;
+}
