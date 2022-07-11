@@ -2500,3 +2500,2203 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-07-11 11:55:22.895 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/software/altera/15.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/software/altera/15.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-11 11:55:54.701
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'N:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 11:57:04.547
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 11:57:05.430
+!MESSAGE Indexed 'Lab2_CLI_Testing' (9 sources, 10 headers) in 0.61 sec: 759 declarations; 5,903 references; 26 unresolved inclusions; 6 syntax errors; 1,068 unresolved names (13.82%)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 11:57:53.836
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 11:57:57.297
+!MESSAGE Indexed 'Lab2_CLI_Testing_bsp' (92 sources, 176 headers) in 2.61 sec: 6,037 declarations; 10,810 references; 38 unresolved inclusions; 3 syntax errors; 94 unresolved names (0.55%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:00:15.139
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1001140]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:00:17.288
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1001140 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing/Lab2_CLI_Testing.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 12:01:50.695
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 12:01:53.390
+!MESSAGE Indexed 'Lab2_WAVEPLAYER_bsp' (92 sources, 79 headers) in 2.41 sec: 1,722 declarations; 4,554 references; 131 unresolved inclusions; 6 syntax errors; 236 unresolved names (3.62%)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 12:01:55.830
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 12:01:56.020
+!MESSAGE Indexed 'Lab2_WAVEPLAYER' (1 sources, 0 headers) in 0.00 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:03:00.076
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:03:00.985
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:03:03.424
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4cf93f80,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4cf93f80,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77b987f3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77b987f3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46791608,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46791608,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22263e1a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22263e1a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@272600e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@272600e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c1b9de9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c1b9de9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@125c1134,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@125c1134,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1992b8b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1992b8b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 12:03:11.878
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16af0251,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16af0251,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 12:06:55.861
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 12:26:25.923
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:37:44.013
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:37:44.891
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:37:47.491
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:40:05.485
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:40:06.360
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:40:08.745
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 12:40:53.480
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:42:56.441
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:42:57.284
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:42:59.774
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:43:25.966
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:43:26.883
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1001140]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:43:29.086
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1001140 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:44:44.529
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:44:45.402
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1001140]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:44:47.696
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1001140 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:46:06.125
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:46:06.966
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1001140]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:46:09.152
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1001140 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing/Lab2_CLI_Testing.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 12:47:53.489
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:52:06.351
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:52:07.159
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:52:09.558
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:53:26.804
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:53:27.679
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:53:30.116
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:54:43.081
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:54:43.925
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:54:46.349
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:55:16.000
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:55:17.094
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 12:55:19.674
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 12:56:49.074
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:14:29.450
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:14:30.607
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:14:33.125
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:16:47.022
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:16:47.881
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:16:50.238
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:17:05.318
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:17:06.146
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:17:08.587
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:18:11.671
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:18:12.545
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:18:14.959
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 13:19:03.189
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:19:13.228
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:19:14.071
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:19:16.508
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:19:43.386
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:19:44.220
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:19:46.704
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 13:24:11.093
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 13:30:53.813
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 13:36:08.791
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 13:45:46.303
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 13:45:46.523
+!MESSAGE Indexed 'Lab2_PUSHBUTTONS' (1 sources, 0 headers) in 0.02 sec: 8 declarations; 26 references; 5 unresolved inclusions; 0 syntax errors; 17 unresolved names (33.33%)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 13:50:46.311
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 13:56:57.336
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:57:27.762
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:57:28.933
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:57:31.533
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:58:55.763
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:58:56.591
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 13:58:58.972
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:01:56.220
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:01:57.095
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:01:59.442
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 14:02:07.917
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:03:29.163
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:03:30.007
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:03:32.401
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:04:25.269
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:04:26.144
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:04:28.554
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:07:27.270
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:07:28.176
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:07:30.617
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 14:07:54.217
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 14:14:18.290
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 14:20:17.922
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:28:41.902
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:28:43.058
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:28:45.796
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 14:30:29.209
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:32:00.289
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:32:01.460
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:32:03.998
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:33:20.126
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:33:20.954
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:33:23.360
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:34:01.456
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:34:02.315
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:34:04.719
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:34:26.480
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:34:27.355
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:34:29.842
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:35:14.416
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:35:15.291
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:35:17.634
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:36:22.920
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:36:23.758
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:36:26.148
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 14:36:31.231
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:38:12.253
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:38:13.050
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 14:38:15.456
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 14:43:07.439
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.jface 2 0 2022-07-11 15:37:23.375
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 15:37:23.375
+!MESSAGE A conflict occurred for ALT+ARROW_RIGHT:
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.forwardMacroExpansion,Forward,
+		Step forward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33b3bffc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.forwardHistory,Forward History,
+		Move forward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b336867,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 15:37:23.375
+!MESSAGE A conflict occurred for ALT+ARROW_LEFT:
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.backwardMacroExpansion,Back,
+		Step backward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4be64931,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.backwardHistory,Backward History,
+		Move backward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48e44e7d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:39:23.108
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:39:23.961
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:39:26.436
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 15:41:35.636
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:43:44.641
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:43:45.594
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:43:47.986
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:44:31.901
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:44:32.838
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:44:34.072
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:44:35.839
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:44:36.518
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-07-11 15:44:38.969
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x1001140, --id=0x0, --timestamp=1652189717, /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-07-11 15:44:38.969
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:44:45.463
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:44:46.588
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:44:48.989
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:46:43.188
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:46:44.047
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:46:46.359
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 15:47:36.181
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:47:44.351
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:47:45.178
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:47:47.506
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:48:33.438
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:48:34.302
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1001140]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:48:36.493
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1001140 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing/Lab2_CLI_Testing.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 15:53:21.548
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 15:53:21.626
+!MESSAGE Indexed 'Lab2_LOOP_AUDIO' (1 sources, 0 headers) in 0.00 sec: 6 declarations; 20 references; 1 unresolved inclusions; 0 syntax errors; 7 unresolved names (21.21%)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 15:54:15.260
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 15:54:18.088
+!MESSAGE Indexed 'Lab2_LOOP_AUDIO_bsp' (92 sources, 175 headers) in 2.02 sec: 5,901 declarations; 10,703 references; 31 unresolved inclusions; 3 syntax errors; 89 unresolved names (0.53%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:54:36.979
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:54:37.844
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1001140]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:54:40.015
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1001140 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:55:01.857
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:55:02.607
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:55:05.044
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_LOOP_AUDIO/Lab2_LOOP_AUDIO.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:56:32.525
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:56:33.322
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 15:56:35.720
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 15:59:15.306
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:00:51.924
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:00:52.767
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:00:55.142
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:01:27.368
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:01:28.213
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:01:30.530
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:04:32.510
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:04:33.651
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:04:36.354
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:04:37.918
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:08:44.858
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:08:45.718
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:08:48.160
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:09:32.148
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:09:32.945
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:09:35.360
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:10:02.971
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:10:28.950
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:10:29.763
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:10:32.168
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:11:35.545
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:11:36.456
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:11:37.927
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:11:39.668
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:11:40.355
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 16:13:36.715
+!MESSAGE Indexed 'Lab2_CLI_Testing2' (9 sources, 42 headers) in 0.24 sec: 2,299 declarations; 9,250 references; 13 unresolved inclusions; 0 syntax errors; 56 unresolved names (0.48%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 16:14:12.162
+!MESSAGE Indexed 'Lab2_CLI_Testing_bsp2' (92 sources, 172 headers) in 1.33 sec: 5,729 declarations; 10,647 references; 0 unresolved inclusions; 2 syntax errors; 8 unresolved names (0.05%)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2022-07-11 16:14:26.995
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1642)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not move '/Lab2_CLI_Testing_bsp2'.
+org.eclipse.core.runtime.CoreException: Could not move: C:\Users\mlostler\ECE-224\LogicalStep\software\Lab2_CLI_Testing_bsp2.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:415)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:358)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:767)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:753)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1070)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2018)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:131)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:411)
+	... 16 more
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2022-07-11 16:14:26.996
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2022-07-11 16:14:26.996
+!MESSAGE Could not move '/Lab2_CLI_Testing_bsp2'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: C:\Users\mlostler\ECE-224\LogicalStep\software\Lab2_CLI_Testing_bsp2.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:415)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:358)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:767)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:753)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1070)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2018)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:131)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:411)
+	... 16 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2022-07-11 16:14:26.996
+!MESSAGE Could not move: C:\Users\mlostler\ECE-224\LogicalStep\software\Lab2_CLI_Testing_bsp2.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:131)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:411)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:358)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:767)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:753)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1070)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2018)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete: C:\Users\mlostler\ECE-224\LogicalStep\software\Lab2_CLI_Testing_bsp2\Makefile.
+Contains: Could not delete: C:\Users\mlostler\ECE-224\LogicalStep\software\Lab2_CLI_Testing_bsp2.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2022-07-11 16:14:26.996
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2022-07-11 16:14:26.996
+!MESSAGE Could not delete: C:\Users\mlostler\ECE-224\LogicalStep\software\Lab2_CLI_Testing_bsp2\Makefile.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2022-07-11 16:14:26.996
+!MESSAGE Could not delete: C:\Users\mlostler\ECE-224\LogicalStep\software\Lab2_CLI_Testing_bsp2.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-11 16:14:33.744
+!MESSAGE Indexed 'Lab2_CLI_Testing2_bsp' (92 sources, 172 headers) in 1.00 sec: 5,729 declarations; 10,647 references; 0 unresolved inclusions; 2 syntax errors; 8 unresolved names (0.05%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:15:02.500
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:15:02.500
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:15:03.297
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:15:05.768
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing2/Lab2_CLI_Testing.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:15:22.909
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:16:42.952
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:16:43.786
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:16:46.192
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing2/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:18:52.252
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:18:53.096
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:18:55.533
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing2/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:19:06.770
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:19:07.566
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:19:09.925
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing2/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:19:52.673
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:19:53.501
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:19:55.925
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing2/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:20:37.106
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:20:37.933
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:20:40.447
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing2/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:21:14.386
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:21:15.229
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:21:17.588
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing2/Lab2_CLI_Testing.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:21:29.333
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:22:02.345
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:22:03.204
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:22:05.610
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing2/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:22:40.964
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:22:42.074
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:22:44.471
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing2/Lab2_CLI_Testing.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:24:26.741
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:24:31.622
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:25:29.529
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:25:30.404
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1001140]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:25:32.545
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1001140 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing/Lab2_CLI_Testing.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:29:39.373
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:32:27.752
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:32:28.568
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x1001140]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:32:30.748
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x1001140 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_CLI_Testing/Lab2_CLI_Testing.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:33:56.117
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:33:56.977
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:33:59.559
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:36:34.729
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:40:01.787
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:40:02.615
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:40:05.039
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:41:03.047
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:41:03.892
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:41:06.269
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:41:42.917
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:41:43.714
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:41:46.126
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:44:38.242
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:45:15.945
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:45:16.726
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:45:19.070
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:45:56.020
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:45:56.863
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:45:59.303
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:46:25.514
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:46:26.342
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:46:28.722
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:49:45.764
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:51:24.243
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:51:25.113
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:51:27.693
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 16:54:55.218
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:55:13.929
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:55:15.140
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:55:18.053
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:56:57.567
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:56:58.733
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:57:01.325
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:57:46.396
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:57:47.259
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:57:49.660
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:58:02.922
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:58:03.748
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:58:06.173
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:59:14.940
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:59:15.735
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 16:59:18.151
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 17:00:02.380
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:01:52.306
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:01:53.184
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:01:55.611
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:03:25.000
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:03:26.191
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:03:28.740
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:05:06.000
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:05:07.238
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:05:09.878
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 17:05:21.642
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:10:19.297
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:10:20.509
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:10:23.163
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:11:28.890
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:11:29.756
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:11:32.219
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 17:13:20.852
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:14:30.535
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:14:31.411
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:14:33.945
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:16:06.278
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:16:07.139
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:16:09.582
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:16:16.585
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:16:17.429
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:16:19.784
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:16:40.063
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:16:40.915
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:16:43.415
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:17:03.075
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:17:03.929
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:17:06.361
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 17:18:56.792
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:19:35.382
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:19:36.247
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:19:39.298
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 17:24:32.962
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 17:31:30.609
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 17:38:58.318
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-07-11 17:43:25.705
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2022-07-11 17:43:25.705
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2022-07-11 17:43:25.705
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2022-07-11 17:43:30.181 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/software/altera/15.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/software/altera/15.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-11 17:43:42.326
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'N:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:46:47.035
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:46:49.446
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 17:49:11.358
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:54:12.729
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:54:13.650
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:54:16.117
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:58:10.597
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:58:11.454
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 17:58:13.848
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 17:59:10.050
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 18:04:26.353
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:07:43.726
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:07:44.629
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:07:47.070
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:08:32.827
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:08:33.669
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:08:36.144
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:08:42.899
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:08:43.784
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:08:46.157
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:10:43.070
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:10:43.909
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:10:46.466
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 18:11:11.954
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:15:14.266
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:15:15.435
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:15:18.015
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:16:42.995
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:16:43.817
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:16:46.250
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 18:18:09.491
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:18:09.530
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:18:10.526
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:18:12.957
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:19:42.132
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:19:42.950
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:19:45.330
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 18:24:39.695
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:31:49.852
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:31:50.678
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:31:53.116
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 18:36:47.251
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 18:43:47.226
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:44:39.558
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:44:40.403
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:44:42.729
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:46:16.779
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:46:17.641
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:46:20.038
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 18:49:22.625
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:50:17.062
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:50:17.860
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:50:20.282
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:51:43.678
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:51:44.532
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:51:46.896
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:54:15.351
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:54:16.179
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1001140 --id=0x0 --timestamp=1652189717]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-07-11 18:54:18.560
+!MESSAGE Executing: [C:/software/altera/15.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1001140 --id=0x0 --timestamp=1652189717 /cygdrive/c/Users/mlostler/ECE-224/LogicalStep/software/Lab2_WAVEPLAYER/Lab2_WAVEPLAYER.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2022-07-11 18:54:39.299
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\mlostler\ECE-224\LogicalStep\software\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)

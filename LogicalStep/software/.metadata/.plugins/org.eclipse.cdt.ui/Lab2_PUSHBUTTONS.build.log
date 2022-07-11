@@ -1,0 +1,9 @@
+15:38:49 **** Build of configuration Nios II for project Lab2_PUSHBUTTONS ****
+make all 
+Info: Building ../Lab2_PUSHBUTTONS_bsp/
+C:/Software/Altera/15.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Lab2_PUSHBUTTONS_bsp/
+[BSP build complete]
+[Lab2_PUSHBUTTONS build complete]
+
+15:38:50 Build Finished (took 1s.172ms)
+

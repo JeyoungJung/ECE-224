@@ -2,9 +2,9 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>7-Jul-2022 3:06:22 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1657220782803</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\Users\j74jung\ECE-224\LogicalStep\software\Lab2_CLI_Testing_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>11-Jul-2022 4:25:21 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1657571121618</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\mlostler\ECE-224\LogicalStep\software\Lab2_CLI_Testing_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\QD1.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
@@ -14,7 +14,7 @@
                 <SettingName>hal.sys_clk_timer</SettingName>
                 <Identifier>ALT_SYS_CLK</Identifier>
                 <Type>UnquotedString</Type>
-                <Value>none</Value>
+                <Value>system_timr</Value>
                 <DefaultValue>none</DefaultValue>
                 <DestinationFile>system_h_define</DestinationFile>
                 <Description>Slave descriptor of the system clock timer device. This device provides a periodic interrupt ("tick") and is typically required for RTOS use. This setting defines the value of ALT_SYS_CLK in system.h.</Description>
