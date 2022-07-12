@@ -115,7 +115,7 @@ char Line[256];                 /* Console input buffer */
 FATFS Fatfs[_VOLUMES];          /* File system object for each logical drive */
 FIL File1, File2;               /* File objects */
 DIR Dir;                        /* Directory object */
-uint8_t Buff[1024] __attribute__ ((aligned(4)));  /* Working buffer */
+uint8_t Buff[8192] __attribute__ ((aligned(4)));  /* Working buffer */
 
 // File storage information
 // Stores up to 20 file objects
@@ -149,6 +149,7 @@ void put_rc(FRESULT rc)
     for (i = 0; i != rc && *str; i++) {
         while (*str++);
     }
+    xprintf("rc=%u FR_%s\n", (uint32_t) rc, str);
 }
 
 typedef enum StateId {
@@ -249,18 +250,18 @@ int main(void)
     // open the Audio port
     audio_dev = alt_up_audio_open_dev ("/dev/Audio");
 
-//    if ( audio_dev == NULL)
-//    alt_printf ("Error: could not open audio device \n");
-//    else
-//    alt_printf ("Opened audio device \n");
+    if ( audio_dev == NULL)
+    alt_printf ("Error: could not open audio device \n");
+    else
+    alt_printf ("Opened audio device \n");
 
     IoInit();
 
     IOWR(SEVEN_SEG_PIO_BASE,1,0x0007);
 
-//    xputs(PSTR("FatFs module test monitor\n"));
-//    xputs(_USE_LFN ? "LFN Enabled" : "LFN Disabled");
-//    xprintf(", Code page: %u\n", _CODE_PAGE);
+    xputs(PSTR("FatFs module test monitor\n"));
+    xputs(_USE_LFN ? "LFN Enabled" : "LFN Disabled");
+    xprintf(", Code page: %u\n", _CODE_PAGE);
 
 	#if _USE_LFN
 		Finfo.lfname = Lfname;
@@ -270,7 +271,7 @@ int main(void)
     char * name ="car.wav";
 
     p1 = 0;
-//    xprintf("rc=%d\n", (uint16_t) disk_initialize((uint8_t) p1));
+    xprintf("rc=%d\n", (uint16_t) disk_initialize((uint8_t) p1));
     put_rc(f_mount((uint8_t) p1, &Fatfs[p1]));
 	// Get directory list and
 	ptr = '\0';
@@ -293,6 +294,7 @@ int main(void)
 		}
 
 		else {
+			xprintf("Error: file name too long\n");
 			num_files--;
 			continue;
 		}
@@ -321,7 +323,7 @@ int main(void)
 				while(state_id == PAUSE);
 				break;
 			case PLAY:
-				sw = IORD(SWITCH_PIO_BASE, 0);
+				sw = IORD(SWITCH_PIO_BASE, 2);
 				mode = sw & 0x03;
 				writeLCD(fnames[findex], 2);
 				while (p1 > 0 && state_id == PLAY) // while the number of bytes to read are more than 0
@@ -371,16 +373,18 @@ int main(void)
 				if (state_id == PLAY) {
 					state_id = RESET;
 				}
+				xprintf("done\n");
 				break;
 
 			case PREV:
 				if (findex == 0) {
-					findex = num_files - 1;
+					findex = num_files;
 				} else {
 					findex--;
 				}
 				f_open(&File1, fnames[findex], 1);
 				p1 = flen[findex];
+				printf("%s\n", fnames[findex]);
 				writeLCD(fnames[findex], 1);
 				if ( prev_state == PAUSE || prev_state == RESET ) {
 					state_id = RESET;
@@ -390,7 +394,7 @@ int main(void)
 				break;
 
 			case NEXT:
-				if (findex >= num_files - 1) {
+				if (findex >= num_files) {
 					findex = 0;
 				} else {
 					findex++;

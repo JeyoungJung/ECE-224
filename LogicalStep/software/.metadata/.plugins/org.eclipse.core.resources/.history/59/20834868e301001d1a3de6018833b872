@@ -375,7 +375,7 @@ int main(void)
 
 			case PREV:
 				if (findex == 0) {
-					findex = num_files - 1;
+					findex = num_files;
 				} else {
 					findex--;
 				}
@@ -390,7 +390,7 @@ int main(void)
 				break;
 
 			case NEXT:
-				if (findex >= num_files - 1) {
+				if (findex >= num_files) {
 					findex = 0;
 				} else {
 					findex++;
